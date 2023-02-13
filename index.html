@@ -47,8 +47,8 @@
         </nav>
     </header>
     <main>
-        <div style="background-color: #1abc9c;">
-            <div class="container text-white">
+        <section class="background-light">
+            <div class="container">
                 <div class="row py-5 text-center">
                     <div>
                         <?xml version="1.0" encoding="utf-8"?>
@@ -480,8 +480,8 @@
                 </div>
 
             </div>
-        </div>
-        <section  style="background-color: bisque;">
+        </section>
+        <section style="background-color: bisque;">
             <div class="container">
                 <div class="row py-5 text-center">
                     <h3>PORTFOLIO</h3>
@@ -504,56 +504,126 @@
                             <img src="img/safe.png" alt="" class="img-fluid rounded">
                         </div>
                         <div class="col-12 col-lg-6 col-xxl-4">
-                            <img src="img/submarine.png" alt="" class="img-fluid rounded"> 
+                            <img src="img/submarine.png" alt="" class="img-fluid rounded">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <div class="container text-white text-center">
-            <h3>ABOUT</h3>
-            <div>cornice</div>
-            <div class="row d-flex flex-sm-wrap">
-                <div class="col">Freelancer is a free bootstrap theme created by Start bootstrap. The download includes
-                    the complete source files including HTML, CSS, and JavaScriptas well as optional LESS stylesheets
-                    for easy customization.</div>
-                <div class="col">Whether you're a student looking to showcase your work, a professional looking to
-                    attract clients, or a graphic artist looking to share your projects, this template is the perfect
-                    starting point!</div>
-            </div>
-            <button><i class="fa-solid fa-download"></i> Download</button>
+        <div class="background-light text-center">
+            <div class="container py-5">
+                <h3>ABOUT</h3>
+                <div><i class="fa-solid fa-star"></i></div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col col-12  col-xxl-4 mt-4">Freelancer is a free bootstrap theme created by Start bootstrap. The download
+                        includes
+                        the complete source files including HTML, CSS, and JavaScriptas well as optional LESS
+                        stylesheets
+                        for easy customization.</div>
+                    <div class="col col-12 col-xxl-4 mt-4">Whether you're a student looking to showcase your work, a professional looking to
+                        attract clients, or a graphic artist looking to share your projects, this template is the
+                        perfect
+                        starting point!</div>
+                </div>
+                <button type="button" class="btn btn-outline-light mt-5"><i class="fa-solid fa-download"></i>
+                    Download</button>
 
+            </div>
         </div>
 
-        <div class="container  text-center">
+        <div class="container text-center">
             <div class="row py-5 text-center">
                 <h3>CONTACT ME</h3>
-                <div>cornice</div>
-                <div>form</div>
+                <div><i class="fa-solid fa-star"></i></div>
+                <form class="text-start">
+                    <div class="mb-3 border-bottom">
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                                <label for="inputEmail6" class="col-form-label">Email</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="password" id="inputEmail6" class="form-control border-0"
+                                    aria-describedby="passwordHelpInline">
+                            </div>
 
-                <hr>
-                <button>Send</button>
+                        </div>
+                    </div>
+                    <div class="mb-3 border-bottom">
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label">Password</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="password" id="inputPassword6" class="form-control border-0"
+                                    aria-describedby="passwordHelpInline">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="mb-3 border-bottom">
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                                <label for="inputNumber6 " class="col-form-label">Phone Number</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="number" id="inputNumber6" class="form-control border-0"
+                                    aria-describedby="passwordHelpInline">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="mb-2 border-bottom">
+                        <div class="form-floating">
+                            <textarea class="form-control border-0" placeholder="Leave a comment here"
+                                id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Message</label>
+                        </div>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-bd-primary ms-btn-lightgreen">Send</button>
+                </form>
+
+
+
             </div>
         </div>
 
 
     </main>
     <footer>
-        <div class="container text-center text-white" style="background-color: #3a546d;">
-            <div class="row py-5 text-center">
-                <h5>Location</h5>
-                <div>2215 John Daniel Drive Clark, MO 542343</div>
-                <div>AROUND THE WEB</div>
-                <div>loghi social</div>
-                <div>ABOUT FRELANCER</div>
-                <div>Frelance is afree to use, open source Bootstrap theme created by Start Bootstrap.</div>
+        <section class="background-dark">
+            <div class="container text-center ">
+                <div class="row py-5 text-center">
+                    <div class="col-12 col-lg-6 col-xxl-4 mt-4">
+                        <h5>Location</h5>
+                        <div>2215 John Daniel Drive Clark, MO 542343</div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xxl-4 justify-content-center mt-4">
+                        <div>AROUND THE WEB</div>
+                        <div>
+                            <ul class="d-flex justify-content-center">
+                                <li class="list-item mx-4 my-4 border p-2 rounded-pill"><i class="fa-brands fa-facebook-f"></i></li>
+                                <li class="list-item mx-4 my-4 border p-2 rounded-pill"><i class="fa-brands fa-google-plus-g"></i></li>
+                                <li class="list-item mx-4 my-4 border p-2 rounded-pill"><i class="fa-brands fa-twitter"></i></li>
+                                <li class="list-item mx-4 my-4 border p-2 rounded-pill"><i class="fa-brands fa-linkedin-in"></i></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-xxl-4 mt-4">
+                        <div>ABOUT FRELANCER</div>
+                        <div>Frelance is afree to use, open source Bootstrap theme created by Start Bootstrap.</div>
+                    </div>
+                </div>
             </div>
             <div class="row py-5 text-center" style="background-color: #2c3e50;">
                 <small>Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</small>
 
             </div>
-        </div>
+        </section>
 
 
     </footer>
